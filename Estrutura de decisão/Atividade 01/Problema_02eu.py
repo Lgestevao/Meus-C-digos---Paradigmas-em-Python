@@ -1,6 +1,6 @@
 try:
   gênero = input("Informe o seu gênero através das sigla M ou F: ")
-    if(gênero = M or gênero = F):
+  if (gênero == M or gênero == F):
       print("Muito bem.")
 except:
   print("Só será permitido as siglas M ou F para informar o seu gênero. Tente novamente.")

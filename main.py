@@ -1,8 +1,6 @@
-try:
-  num = float(input("Digite o primeiro número: "))
-  if num < 0:
-    print(f"O número {num} é negativo.")
-  else:
-    print(f"O número {num} é positivo.")
-except:
-  print("Digite um número!")
+sexo = input("Escolha o sexo: \n 1 - M - Para o sexo masculino. \n 2 - F - Para o sexo feminino. \n: Opção: ")
+match sexo:
+  case 1:
+    print("Você escolheu a opção do sexo masculino.")
+  case 2:
+    print("Você escolheu a opção do sexo feminino.")
