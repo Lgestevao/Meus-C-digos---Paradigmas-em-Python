@@ -21,4 +21,3 @@ try:
       print(f"\n O salário antes do reajuste era: R${salario:.2f}.\n O percentual do reajuste aplicado foi de 5%.\n O aumento dado foi de R${reajuste:.2f}.\n O salário reajustado ficou R${salario_novo:.2f}.")
 except:
     print("O valor do salário só poderá ser dado em números. Digite novamente.")
-      
