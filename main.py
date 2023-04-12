@@ -6,6 +6,6 @@ try:
     centena = num/100
     dezena = num/10
     unidade = num/1
-    print(f"A quantidade de centenas desse número é de: {centena}. \nA quantidade de dezenas desse número é de: {dezena}. \nA quantidade de unidades desse número é de: {unidade}.")
+    print(f"O número escolhido foi {num:.0f}. \n {num:.0f} = {centena:.0f} centenas, {dezena:.0f} dezenas e {unidade:.0f} unidades.")
 except:
   print("Tente novamente. Digite um número.")
